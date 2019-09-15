@@ -170,3 +170,5 @@ SQL EXAMPLES:
 
 31. Página para sacar imágenes en lugar de font-awesome: https://www.iconfinder.com/
 32. Para installar jquery: https://www.botreetechnologies.com/blog/introducing-jquery-in-rails-6-using-webpacker
+33. Para poner textos con itálica, o estilos así, se puede entrar a esta página para ver los estilos:
+	https://www.markdowntutorial.com/
