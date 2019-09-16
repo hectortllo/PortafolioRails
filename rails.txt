@@ -31,6 +31,13 @@ Para poner rutas amigables, ver el video 66. En este link: https://github.com/no
 		title y percent_utilized son atributos
 		string e integer son los tipos de datos
 
+4.2 Para crear archivos vacíos (como un Scaffold pero sin código) se crear un resource:
+	rails g resource Portfolio title:string subtitle:string body:text main_image:text thumb_image:text
+		Portfolio es el nombre del resource
+		title, subtitle, body, main_image, thumb_image son atributos
+		las imágenes se guardan como tipo texto
+		Después hay que hacer un rails db:migrate
+
 5. Si el error dice que falta un template, se debe crear una carpeta en la carpeta 'views'.
 6. En MVC, el modelo (M), cuando hablamos del modelo, hablamos de los datos.
 
