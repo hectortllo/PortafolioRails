@@ -145,6 +145,7 @@ SQL EXAMPLES:
 	25.2  Hacer merge 
 		25.2.1 Después de haber subido los cambios de la rama donde estuve trabajando (rama_secundaria), 
 			me paso a la rama master, y hago: git merge rama_secundaria
+		25.2.2 Por último, hacer git push
 
 26. Para hacer debuggin en rails, se pueden usar las gemas 'byebug' y 'pry byebug'
 	26.1 Para usar la gema byebug solo basta colocar byebug en algún punto del programa para poner un breakpoint
