@@ -56,6 +56,8 @@ Para poner rutas amigables, ver el video 66 y 67. En este link: https://github.c
 
 10. Para conectar un blog con un id de topic:
 	10.1 Blog.create!(title: "Some cool ruby stuff", body: "asdfasdf", topic_id: Topic.first.id)
+	10.2 Ver los topic que tenga el último Blog insertado:	Blog.last.topic
+
 
 11. Creando datos de prueba desde el archivo seeds.rb:
 	11.1 Después de editar la información que quiero crear, se debe escribir en la consola: rails db:setup
