@@ -37,4 +37,17 @@ class PortfoliosController < ApplicationController
     def show
       @portfolio_item = Portfolio.find(params[:id])
     end
+
+    #No necesita tener un template 
+    def destroy
+      #Va a buscar el elemento a eliminar
+      @portfolio_item = Portfolio.find(params[:id])
+      #Elimina el item
+      @portfolio_item.destroy
+
+      #Redirigir a una ruta después de eliminar el item
+      respond_to do |format|
+        format.html { redirect_to portfolios_url, notice: 'Record was removed.' }
+      end
+    end
 end
