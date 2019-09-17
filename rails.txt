@@ -4,7 +4,7 @@ Para crear una nueva aplicación:
 	rails db:create
 	rails db:migrate
 
-Para poner rutas amigables, ver el video 66. En este link: https://github.com/norman/friendly_id está la gema 
+Para poner rutas amigables, ver el video 66 y 67. En este link: https://github.com/norman/friendly_id está la gema 
 1. Después de crear una función en un controller. - ejemplo
 	1.2. Debo crear un nuevo archivo en app/views/pages con el mismo nombre 
 	de la función nueva. ejemplo.html.erb
