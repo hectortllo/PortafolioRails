@@ -192,3 +192,5 @@ SQL EXAMPLES:
 34. Para crear un nuevo atributo a una tabla ya creada:
 	rails g migration add_post_status_to_blogs status:integer
 	"status" es el nombre del atributo
+
+35. Para poder tener usuarios en la aplicación, ver la sección 8 - Authenticacion.
