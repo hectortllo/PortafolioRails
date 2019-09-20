@@ -1,7 +1,7 @@
 <h1>Portfolio items</h1>
 
 <%# link_to "Create a new Item", new_portfolio_url, subdomain: 'my_subdomain' %>
-<%= link_to "Create a new Item", new_portfolio_path %>
+<%= link_to "Create a new Item", new_portfolio_url  if logged_in?(:site_admin) %>
 
 <%# Cuando se tiene el nombre del partial de más de una palabra, se hace lo siguiente%>
 <%= render partial: 'portfolio_item', collection: @portfolio_items %>
