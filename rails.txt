@@ -194,3 +194,5 @@ SQL EXAMPLES:
 	"status" es el nombre del atributo
 
 35. Para poder tener usuarios en la aplicación, ver la sección 8 - Authenticacion.
+36. Para crear código HTML dinámicamente, desde código ruby, hay que usar la siguiente línea:
+	content_tag(:div, "My content", class: "my-class")
