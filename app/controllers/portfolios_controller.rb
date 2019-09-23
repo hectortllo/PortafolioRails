@@ -4,7 +4,8 @@ class PortfoliosController < ApplicationController
 
     def index
         #@portfolio_items = Portfolio.ruby_on_rails_portfolio_items
-        @portfolio_items = Portfolio.all
+        #Ordenarlos ascendentemente
+        @portfolio_items = Portfolio.by_position
     end
 
     def angular
