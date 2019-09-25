@@ -66,4 +66,4 @@ puts "9 portfolio items created"
         name: "Technology #{technology}"
     )
 end
-puts "9 technologies created"
+puts "3 technologies created"
