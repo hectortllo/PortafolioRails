@@ -14,6 +14,9 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable 
 
   validates_presence_of :name
+  #Si se elimina un blog, se quieren eliminar todos los comentarios que tenga, para
+  #eso es 'dependent: :destroy'
+  has_many :comments, dependent: :destroy
 
   def first_name
     self.name.split.first
