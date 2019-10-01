@@ -79,13 +79,11 @@ class BlogsController < ApplicationController
   end
 
   def toggle_status
-    @blog.published! if @blog.draft?
-    @blog.draft! if @blog.published?
 
     if @blog.draft?
       @blog.published!
-    elsif @blog.published!
-      @blog.draft?
+    elsif @blog.published?
+      @blog.draft!
     end
     redirect_to blogs_url, notice: 'Post status has been updated.'  
   end
