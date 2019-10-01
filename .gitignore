@@ -26,8 +26,4 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-#Videos para la página
-app/assets/images/video.mp4
-app/assets/images/fondo.mp4
-
 .env
