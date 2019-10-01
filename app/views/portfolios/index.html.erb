@@ -1,5 +1,6 @@
 <div class="album text-muted">
     <div class="container">
+        <%= source_helper("alert alert-warning") %>
         <div class="row <%= "sortable" if logged_in?(:site_admin) %>">
             <%# Cuando se tiene el nombre del partial de más de una palabra, se hace lo siguiente%>
             <%= render partial: 'portfolio_item', collection: @portfolio_items %>
