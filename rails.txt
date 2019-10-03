@@ -200,3 +200,5 @@ SQL EXAMPLES:
 37. Trabajando con la consola de heroku:
 	heroku run rails c -> Entrar a la consola de rails desde heroku
 	heroku logs -n 250 -> Ver el archivo .log
+	git push heroku master -> Subir los cambios a heroku
+	heroku run db:migrate -> Si hace algún cambio a la bd
