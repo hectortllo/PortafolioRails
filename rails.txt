@@ -196,3 +196,7 @@ SQL EXAMPLES:
 35. Para poder tener usuarios en la aplicación, ver la sección 8 - Authenticacion.
 36. Para crear código HTML dinámicamente, desde código ruby, hay que usar la siguiente línea:
 	content_tag(:div, "My content", class: "my-class")
+
+37. Trabajando con la consola de heroku:
+	heroku run rails c -> Entrar a la consola de rails desde heroku
+	heroku logs -n 250 -> Ver el archivo .log
