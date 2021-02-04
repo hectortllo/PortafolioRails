@@ -1,4 +1,4 @@
-<h1 class="cover-heading">Sobre mí</h1>
+<h1 class="cover-heading">About me</h1>
 <hr>
 
 <div class="row">
@@ -23,13 +23,12 @@
   </div>
 
   <div class="col-md-8">        
-    <p class="lead">En la actualidad tengo el pensum cerrado de la carrera Ingeniería
-      en Informática y Sistemas, en la universidad Rafael Landívar, Campus de Quetzaltenango.
+    <p class="lead">At present I have finished my studies of the
+    Engineering carrer in Computer Science and Systems at
+    Rafael Landívar University, Quetzaltenango Campus, Guatemala.
     </p>
 
-    <p class="lead">La computación me comenzó a llamar la atención cuando tenía aproximadamente
-      14 años. Fue cuando pude hacer mi primer programa, en Turbo Pascal, y desde ese día supe 
-      a lo que me quería dedicar.
+    <p class="lead">Computer Science called my attention when i was 14 years old. It was when I was able to do my first program, in Turbo Pascal, and from that tday I knew what I wanted to do.
     </p>
 
     <p>
@@ -45,7 +44,7 @@
       </button>
 
       <button
-        class="btn btn-primary"
+        class="btn btn-primary mr-3"
         type="button"
         data-toggle="collapse"
         data-target="#education"
@@ -54,15 +53,26 @@
       >
         Education
       </button>
+
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-toggle="collapse"
+        data-target="#skills"
+        aria-expanded="false"
+        aria-controler="skills"
+      >
+        Skills
+      </button>
     </p>
 
     <p>
       <div class="collapse" id="jobHistory">
         <div class="card card-block py-2">
-          Delta tracking
+          Developer Lead in Deltatracking
         </div>
         <div class="card card-block py-2">
-          Profesor en ED Team
+          EDTeam Professor
         </div>
       </div>
 
@@ -71,7 +81,25 @@
           Universidad Rafael Landívar
         </div>
         <div class="card card-block py-2">
-          Escuelas digitales
+          Digital Schools
+        </div>
+      </div>
+
+      <div class="collapse" id="skills">
+        <div class="card card-block py-2">
+          Ruby - Ruby On Rails
+        </div>
+        <div class="card card-block py-2">
+          JavaScript
+        </div>
+        <div class="card card-block py-2">
+          Git - GitHub
+        </div>
+        <div class="card card-block py-2">
+          VueJS - Angular
+        </div>
+        <div class="py-2">
+          <%= link_to "More in Portfolio section", portfolios_path, class: 'btn btn-warning' %>
         </div>
       </div>
     </p>

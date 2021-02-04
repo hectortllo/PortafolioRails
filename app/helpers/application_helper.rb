@@ -18,7 +18,7 @@ module ApplicationHelper
     end
 
     def copyright_generator
-        TelloViewTool::Renderer.copyright "Héctor Tello", "Todos los derechos reservados"
+        TelloViewTool::Renderer.copyright "Héctor Tello", "All rights reserved"
     end
 
     def nav_items
@@ -33,7 +33,7 @@ module ApplicationHelper
             },
             {
                 url: contact_path, 
-                title: "Contacto"
+                title: "Contact"
             },
             {
                 url: blogs_path, 
@@ -41,7 +41,7 @@ module ApplicationHelper
             },
             {
                 url: portfolios_path, 
-                title: "Portafolio"
+                title: "Portfolio"
             },
             {
                 url: tech_news_path, 
