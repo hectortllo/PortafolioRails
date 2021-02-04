@@ -5,5 +5,8 @@
             <%# Cuando se tiene el nombre del partial de más de una palabra, se hace lo siguiente%>
             <%= render partial: 'portfolio_item', collection: @portfolio_items %>
         </div>
+        <% if logged_in?(:site_admin)%>
+            <%= link_to "New portfolio", new_portfolio_path, class: 'btn btn-success' %>
+        <% end %>
     </div>
 </div>
